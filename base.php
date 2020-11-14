@@ -1,7 +1,7 @@
 <?php
 
 // Methyl
-// github.com/MethylGH
+// github.com/ScriptingForLife
 
 // Base 2, Base 10 & Base 16 command line operations and conversions
 
