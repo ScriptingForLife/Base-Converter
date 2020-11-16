@@ -110,19 +110,19 @@
   if(trim($line) == 2){
     echo "What type of operation ?\n\n";
     echo "[|===========================|]\n";
-    echo "[| \e[91mDecimal\e[m :              |]\n";
+    echo "[| \e[91mDecimal\e[m :                 |]\n";
     echo "[|  [\e[91m1\e[m] => \e[91mAddition\e[m          |]\n";
     echo "[|  [\e[91m2\e[m] => \e[91mSoustraction\e[m      |]\n";
     echo "[|  [\e[91m3\e[m] => \e[91mMultiplication\e[m    |]\n";
     echo "[|  [\e[91m4\e[m] => \e[91mDivision\e[m          |]\n";
     echo "[|===========================|]\n";
-    echo "[| \e[91mBinary\e[m :               |]\n";
+    echo "[| \e[91mBinary\e[m :                  |]\n";
     echo "[|  [\e[91m5\e[m] => \e[91mAddition\e[m          |]\n";
     echo "[|  [\e[91m6\e[m] => \e[91mSoustraction\e[m      |]\n";
     echo "[|  [\e[91m7\e[m] => \e[91mMultiplication\e[m    |]\n";
     echo "[|  [\e[91m8\e[m] => \e[91mDivision\e[m          |]\n";
     echo "[|===========================|]\n";
-    echo "[| \e[91mHex\e[m :                  |]\n";
+    echo "[| \e[91mHex\e[m :                     |]\n";
     echo "[|  [\e[91m9\e[m] => \e[91mAddition\e[m          |]\n";
     echo "[|  [\e[91m10\e[m] => \e[91mSoustraction\e[m     |]\n";
     echo "[|  [\e[91m11\e[m] => \e[91mMultiplication\e[m   |]\n";
