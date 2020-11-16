@@ -203,7 +203,7 @@
       $b = bindec($args[1]);
       
       $rezdec = $a + $b;
-      $result = decbin($result);
+      $result = decbin($rezdec);
 
       echo "\e[91m$line\e[m = \e[91m " . $result . "\e[m\n\n";
 
@@ -222,7 +222,7 @@
       $b = bindec($args[1]);
       
       $rezdec = $a - $b;
-      $result = decbin($result);
+      $result = decbin($rezdec);
 
       echo "\e[91m$line\e[m = \e[91m " . $result . "\e[m\n\n";
 
@@ -241,7 +241,7 @@
       $b = bindec($args[1]);
       
       $rezdec = $a * $b;
-      $result = decbin($result);
+      $result = decbin($rezdec);
 
       echo "\e[91m$line\e[m = \e[91m " . $result . "\e[m\n\n";
 
@@ -260,7 +260,7 @@
       $b = bindec($args[1]);
       
       $rezdec = $a / $b;
-      $result = decbin($result);
+      $result = decbin($rezdec);
 
       echo "\e[91m$line\e[m = \e[91m " . $result . "\e[m\n\n";
 
@@ -279,7 +279,7 @@
       $b = hexdec($args[1]);
       
       $rezdec = $a + $b;
-      $result = dechex($result);
+      $result = dechex($rezdec);
 
       echo "\e[91m$line\e[m = \e[91m " . $result . "\e[m\n\n";
 
@@ -298,7 +298,7 @@
       $b = hexdec($args[1]);
       
       $rezdec = $a - $b;
-      $result = dechex($result);
+      $result = dechex($rezdec);
 
       echo "\e[91m$line\e[m = \e[91m " . $result . "\e[m\n\n";
 
@@ -317,7 +317,7 @@
       $b = hexdec($args[1]);
       
       $rezdec = $a * $b;
-      $result = dechex($result);
+      $result = dechex($rezdec);
 
       echo "\e[91m$line\e[m = \e[91m " . $result . "\e[m\n\n";
 
@@ -335,7 +335,7 @@
       $b = hexdec($args[1]);
       
       $rezdec = $a / $b;
-      $result = dechex($result);
+      $result = dechex($rezdec);
 
       echo "\e[91m$line\e[m = \e[91m " . $result . "\e[m\n\n";
 
