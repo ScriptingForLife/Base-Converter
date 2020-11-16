@@ -77,7 +77,7 @@
 
       $handle = fopen ("php://stdin","r");
       $bin = fgets($handle);
-      $hex = bin2hex($bin);
+      $hex = bin2hex($hex);
 
       echo "\e[91m$bin\e[m" . " = " . "\e[91m" . $hex . "\e[m\n\n";
       exit;
@@ -88,7 +88,7 @@
 
       $handle = fopen ("php://stdin","r");
       $hex = fgets($handle);
-      $dec = bindec($bin);
+      $dec = bindec($hex);
 
       echo "\e[91m$hex\e[m" . " = " . "\e[91m" . $dec . "\e[m\n\n";
       exit;
